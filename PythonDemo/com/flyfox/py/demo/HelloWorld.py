@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 print(r'''你好''')
 a = '张三';
 b = a;

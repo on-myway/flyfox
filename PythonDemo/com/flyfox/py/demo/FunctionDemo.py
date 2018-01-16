@@ -1,9 +1,4 @@
-import math
-
-from com.flyfox.py.demo.MyEnum import MyEnum
-from com.flyfox.py.demo.Student import Student
-
-
+import math;
 #求解一元二次方程
 def quadratic(a,b,c):
     dlt = b*b - 4*a*c;
@@ -94,10 +89,3 @@ print(result);
 result = sorted(['Create','zoo','hadoop','spark','Admin'],key=str.lower,reverse=True);
 print("排序后的结果：");
 print(result);
-
-student = Student();
-student.setAge(54);
-print(student.getAge());
-
-print(MyEnum.Month.name);
-print(MyEnum.Month.value);
